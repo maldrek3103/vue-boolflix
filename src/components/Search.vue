@@ -1,7 +1,7 @@
 <template>
   <section>
     <input type="text" :placeholder="placeholder" v-model.trim="inputText" />
-    <button type="submit" @click="sendSearch" @keyup.enter="sendSearch">
+    <button type="submit" @click="sendSearch" @keyup.Enter="sendSearch">
       {{ submitText || "Search" }}
     </button>
   </section>
